@@ -1,0 +1,193 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd,
+q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt,
+dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark,
+audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu,
+nav, section {
+    display: block;
+}
+body {
+    line-height: 1.2;
+}
+ol {
+    padding-left: 1.4em;
+    list-style: decimal;
+}
+ul {
+    padding-left: 1.4em
+list-style: square;
+}
+/*header*/
+.background-header{
+    background: #3c3d3e;
+}
+#header{
+    margin: 0 auto;
+    max-width: 760px;
+    height: 150px;
+    background: #3c3d3e;
+}
+.logo{
+    float: left;
+    padding-top: 40px;
+}
+.logo img{
+    float: left;
+    margin-left: 20px;
+}
+.logo-text{
+    float: left;
+    margin-left: 5px;
+}
+
+.logo-text h4{
+    font-size: 15px;
+}
+.logo-text h2{
+    font-size: 20px;
+}
+
+.menu{
+    float: right;
+    margin-top: 50px;
+
+}
+    .menu ul{
+        list-style: none;
+
+    }
+        .menu ul li{
+            float: left;
+            padding: 10px 20px;
+            font-size: 18px;
+        }
+            .menu ul li a{
+                text-decoration: none;
+                color: #959595;
+                display: block;
+            }
+                .menu ul li:hover{
+                    background: #202021;
+                    border-radius: 5px;
+                    color: #d2d2d2;
+                }
+                    .menu ul li:hover a{
+
+                        color: #d2d2d2;
+                    }
+            #hover{
+                background: #202021;
+                border-radius: 5px;
+
+            }
+                #hover a{
+                    color: #d2d2d2;
+                }
+
+/*content*/
+
+.background-content{
+    background: #d0d3d8;
+    height: 600px;
+}
+    #content{
+        margin-left: auto;
+        margin-right: auto;
+        width: 760px;
+        padding: 20px 0;
+
+    }
+        .content-top{
+            background: #26425a;
+            height: 350px;
+            border-radius: 10px;
+            position: relative;
+        }
+            .content-top h1{
+                padding: 20px;
+                font-size: 30px;
+            }
+              .content-top img{
+                  padding-left: 20px;
+                  float: left;
+              }
+                .content-top a{
+                    display: block;
+                    text-decoration: none;
+                    position: absolute;
+                    top: 300px;
+                    left: 170px;
+                    padding: 5px 7px;
+                    background: #316c9a;
+                    border-radius: 10px;
+                    color: #d3dae2;
+                    font-size: 12px;
+                }
+                    .content-top h5{
+                        margin-left: 270px;
+                        font-size: 16px;
+                    }
+                        .content-top p{
+                            margin-left: 270px;
+                            width: 250px;
+                            margin-top: 10px;
+                            color: #b8bbbe;
+                        }
+                            .paint{
+                               position: absolute;
+                                top: 80px;
+                                left: 500px;
+                            }
+.content-bottom{
+    margin-top: 20px;
+    padding-left: 20px;
+}
+    .beautiful{
+        float: left;
+        width: 220px;
+        padding-right: 20px;
+    }
+        .beautiful h3{
+            padding-bottom: 10px;
+            font-size: 20px;
+        }
+
+/*fotter*/
+
+.background-footer{
+    background: #444446;
+    height: 70px;
+}
+    #footer{
+        margin-left: auto;
+        margin-right: auto;
+        width: 760px;
+    }
+        #footer address{
+            float: left;
+            padding: 30px 0 0 20px;
+            color: #959595;
+        }
+            #footer a{
+                float: left;
+                margin: 20px 0 0 50px;
+                padding: 7px;
+                background: #1e1e1e;
+                display: block;
+                border-radius: 10px;
+                text-decoration: none;
+                color: #d4d7dc;
+            }
+                #footer img{
+                    float: left;
+                    margin: 10px 0 0 10px;
+                }
