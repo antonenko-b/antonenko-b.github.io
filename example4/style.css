@@ -1,0 +1,492 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd,
+q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt,
+dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark,
+audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu,
+nav, section {
+    display: block;
+}
+body {
+    line-height: 1.2;
+}
+ol {
+    padding-left: 1.4em;
+    list-style: decimal;
+}
+ul {
+    padding-left: 1.4em
+list-style: square;
+}
+
+/*header*/
+.header-home {
+    width: 100%;
+    min-height: 480px;
+    background: url("img/caralog10.jpg") no-repeat center center;
+    background-attachment: scroll;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.bg-opacity {
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 480px;
+}
+header menu {
+    font-family: Roboto, sans-serif;
+
+}
+
+header menu a {
+    font-size: 18px;
+    float: left;
+    display: block;
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+header menu a:hover {
+    color: rgb(184, 188, 188);
+    animation: turn 1s linear 0.5s;
+    animation-fill-mode: inherit;
+}
+header menu ul {
+    list-style: none;
+    float: right;
+}
+header menu ul li {
+    float: left;
+}
+header menu li a {
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 25px 20px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.menu {
+    width: 50px;
+    height: auto;
+    font-family: Roboto, sans-serif;
+    font-weight: 800;
+    background: rgba(108, 107, 104, 0.5);
+    border: 1px solid #2A2244;
+    border-radius: 4px;
+    float: right;
+    margin: 10px 10px 0 0;
+    padding: 10px;
+    color: #fff;
+    display: none;
+    cursor: pointer;
+    text-align: center;
+}
+.menu:hover {
+    background: rgba(108, 107, 104, 0.9);
+}
+header h1 {
+    clear: both;
+    text-align: center;
+    font-family: 'Great Vibes', serif;
+    font-size: 100px;
+    font-weight: 300;
+    color: #fff;
+    padding-top: 80px;
+}
+header hr {
+    width: 100px;
+    border: 2px solid;
+    color: #fff;
+}
+header span {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    padding: 20px 0 30px 0;
+    font-weight: 300;
+}
+header span a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+}
+/*article*/
+.article-home {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #404040;
+    font-family: Roboto, sans-serif;
+}
+.article {
+    width: 23%;
+    float: left;
+    padding: 20px 1%;
+    margin-top: 30px;
+}
+.article span {
+    display: block;
+    color: #808080;
+    font-size: 14px;
+    padding: 0 0 10px;
+}
+.article img {
+    width: 100%;
+    height: auto;
+}
+.article a {
+    display: block;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 500;
+    padding: 20px 0;
+    color: #404040;
+}
+.article a:hover {
+    color: #808080;
+}
+.article p {
+    font-size: 20px;
+    font-weight: 300;
+}
+.hr {
+    clear: both;
+    margin: 30px 0;
+}
+/*Footer*/
+footer {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.icons {
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+/*класс q предназначен для ссылок на соцсети*/
+.q {
+    background: #404040;
+    border-radius: 30px;
+}
+.q:hover {
+    background: #0085a1;
+}
+.icons ul {
+    list-style: none;
+}
+.icons li {
+    float: left;
+    padding: 0 10px;
+}
+.icons li  a{
+    padding: 2px;
+}
+.adress {
+    clear: both;
+    text-align: center;
+    padding: 30px 0;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+.adress p {
+    color: #404040;
+}
+.adress a {
+    color: inherit;
+}
+@media screen and (max-width: 970px){
+    .article {
+        width: 90%;
+        padding: 20px 5%;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 750px) {
+    header h1 {
+        font-size: 70px;
+        font-weight: 300;
+        padding-top: 70px;
+    }
+    header hr {
+        width: 80px;
+    }
+    header span {
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+}
+@media screen and (max-width: 570px){
+    header menu ul {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+    header h1 {
+        font-size: 50px;
+        font-weight: 300;
+        padding-top: 70px;
+    }
+    header hr {
+        width: 70px;
+    }
+    header span {
+        font-size: 18px;
+        padding-bottom: 25px;
+    }
+    .article a {
+        font-size: 20px;
+    }
+    .article p {
+        font-size: 17px;
+    }
+    .article {
+        padding-top: 0px;
+    }
+}
+
+/*page*/
+
+.header-page {
+    width: 100%;
+    min-height: 480px;
+    background: url("img/caralog8.jpg") no-repeat center center;
+    background-attachment: scroll;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.article-page {
+    max-width: 780px;
+    margin: 0 auto;
+    color: #404040;
+    margin-bottom: 50px;
+    padding: 0 30px;
+}
+.article-page h2 {
+    font-family: Roboto, sans-serif;;
+    font-size: 36px;
+    margin-top: 40px;
+}
+.article-page p, span {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    color: #404040;
+    line-height: 1.5em;
+    margin-top: 20px;
+}
+.border {
+    border-left: 5px solid #eee;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    font-style: italic;
+    color: #808080
+}
+figure img {
+    width: 100%;
+    margin-top: 20px;
+}
+figure figcaption {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    color: #808080;
+    margin-top: 5px;
+}
+.article-page span {
+    display: block;
+    margin-top: 30px;
+}
+.article-page a {
+    color: #404040;
+}
+
+@media screen and (max-width: 750px) {
+
+    .article-page h2 {
+        font-size: 28px;
+    }
+    .article-page p, span {
+        font-size: 16px;
+    }
+    .border {
+        font-size: 14px;
+    }
+}
+
+/*about*/
+
+.header-about {
+    width: 100%;
+    min-height: 480px;
+    background: url("img/caralog7.jpg") no-repeat center center;
+    background-attachment: scroll;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.about {
+    padding-top: 40px;
+}
+.about p {
+    padding: 10px 0;
+}
+
+/*contact*/
+
+.header-contact {
+    width: 100%;
+    min-height: 550px;
+    background: url("img/caralog12.jpg") no-repeat center center;
+    background-attachment: scroll;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.header-contact h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+}
+.bg-contact-opacity {
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 550px;
+}
+.border-contact {
+    width: 100%;
+    border-top: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+ }
+.article-contact {
+    max-width: 780px;
+    margin: 0 auto;
+    color: #404040;
+    margin-bottom: 50px;
+    padding: 0 30px;
+}
+.article-contact p {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    color: #404040;
+    line-height: 1.5em;
+    margin: 40px 0 0 10px;
+}
+form {
+    font-family: Roboto, sans-serif;
+    margin-top: 30px;
+}
+
+input {
+    padding: 20px 10px;
+}
+textarea {
+    width: 100%;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+    padding: 20px 10px;
+    height: 100px;
+}
+input, textarea {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    outline: none;
+}
+#button {
+    margin: 20px 0 0 10px;
+    padding: 15px 25px;
+    background: none;
+    border-radius: 0px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+}
+#button:hover {
+    color: #fff;
+    background-color: #0085a1;;
+}
+
+@media screen and (max-width: 750px) {
+    .article-contact p {
+        font-size: 16px;
+    }
+    input, textarea {
+        font-size: 16px;
+        padding: 10px;
+    }
+    #button {
+        margin: 10px 0 0 10px;
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+}
+
+@keyframes turn {
+    from {
+        background-color: #FFFF00;
+    }
+    10% {
+        background-color: #FFCF00;
+    }
+    25% {
+        background-color: #FF7F00;
+    }
+    40% {
+        background-color: #FF4C00;
+    }
+    50% {
+        background-color: #FF0000;
+    }
+    51% {
+        transform-origin: center;
+        transform: rotateX(0deg);
+    }
+    60% {
+        transform-origin: center;
+        transform: rotateX(45deg);
+    }
+    85% {
+        transform-origin: center;
+        transform: rotateX(90deg);
+    }
+    90% {
+        transform-origin: center;
+        transform: rotateX(135deg);
+    }
+
+    to {
+        transform-origin: center;
+        transform: rotateX(180deg);
+    }
+}
+th:visited {
+    /*animation-name: turn;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+    */
+    animation: turn 1s linear 0.5s;
+    animation-fill-mode: forwards;
+}
